@@ -1,4 +1,8 @@
-<? $_SESSION['pagina'] = 'chamados'; require_once 'scripts/header.php';?>
+<?php  
+  session_start();
+  $_SESSION['pagina'] = 'chamados';
+  require_once 'scripts/header.php';
+?>
 
     <div class="container">    
       <div class="row">
